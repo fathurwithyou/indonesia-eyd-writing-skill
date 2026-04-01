@@ -1,0 +1,26 @@
+{
+  "name": "indonesia-eyd",
+  "owner": {
+    "name": "Fathur",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Marketplace untuk plugin bahasa Indonesia yang patuh pada EYD V."
+  },
+  "plugins": [
+    {
+      "name": "indonesia-eyd-writing-skill",
+      "source": "./",
+      "description": "Menulis, menyunting, memeriksa, dan menjelaskan teks bahasa Indonesia agar konsisten dengan EYD V dan rujukan resmi Badan Bahasa.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Fathur"
+      },
+      "homepage": "https://github.com/fathurwithyou/indonesia-eyd-writing-skill",
+      "repository": "https://github.com/fathurwithyou/indonesia-eyd-writing-skill",
+      "license": "MIT",
+      "keywords": ["bahasa-indonesia", "eyd", "ejaan", "penulisan", "badan-bahasa"],
+      "category": "writing"
+    }
+  ]
+}
