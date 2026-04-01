@@ -126,9 +126,24 @@ Praktik yang disarankan:
 
 ### 3. Claude Code
 
-Claude Code juga mendukung skill secara native melalui `SKILL.md`. Skill dapat dipasang sebagai **personal skill** atau **project skill**.
+Claude Code mendukung skill ini melalui **plugin marketplace** maupun pemasangan manual.
 
-#### Opsi A — Personal Skill
+#### Opsi A — Instalasi dari Marketplace (Disarankan)
+
+Tambahkan marketplace dan pasang plugin langsung dari GitHub:
+
+```
+/plugin marketplace add fathurwithyou/indonesia-eyd-writing-skill
+/plugin install indonesia-eyd-writing-skill@indonesia-eyd
+```
+
+Setelah terpasang, panggil skill dengan:
+
+```
+/indonesia-eyd-writing-skill
+```
+
+#### Opsi B — Personal Skill (Manual)
 
 Simpan skill pada direktori berikut:
 
@@ -141,7 +156,7 @@ Simpan skill pada direktori berikut:
 
 Skill pada lokasi ini akan tersedia untuk semua proyek Anda.
 
-#### Opsi B — Project Skill
+#### Opsi C — Project Skill
 
 Simpan skill pada direktori berikut:
 
@@ -179,7 +194,7 @@ Agar skill ini bekerja dengan baik di berbagai platform, ikuti prinsip berikut:
 * **ChatGPT**: unggah skill melalui halaman **Skills** dengan opsi **Upload from your computer**.
 * **Claude**: unggah skill dalam bentuk ZIP yang berisi `SKILL.md` dan `references/`.
 * **Codex**: simpan skill di `.agents/skills/<nama-skill>/`.
-* **Claude Code**: simpan skill di `~/.claude/skills/` atau `.claude/skills/` dalam proyek.
+* **Claude Code**: pasang dari marketplace dengan `/plugin marketplace add fathurwithyou/indonesia-eyd-writing-skill`, atau simpan manual di `~/.claude/skills/` atau `.claude/skills/` dalam proyek.
 
 ## License
 
