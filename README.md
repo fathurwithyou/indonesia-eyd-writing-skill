@@ -22,6 +22,14 @@ Repositori ini ditujukan untuk membantu agent, developer, penulis, editor, maupu
 
 ## Cara Memuat Skill
 
+### Instalasi dengan npx
+
+Untuk memasang skill ini langsung dari GitHub menggunakan `npx`, jalankan perintah berikut:
+
+```bash
+npx skills add https://github.com/fathurwithyou/indonesia-eyd-writing-skill --skill indonesia-eyd-writing-skill
+```
+
 ### 1. ChatGPT / Claude
 
 #### ChatGPT
