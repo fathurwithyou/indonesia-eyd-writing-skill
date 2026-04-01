@@ -42,7 +42,7 @@ Langkah yang disarankan:
 2. Masuk ke halaman **Skills**.
 3. Klik **New skill**.
 4. Pilih **Upload from your computer**.
-5. Unggah skill ini dari komputer Anda. ([OpenAI Help Center][1])
+5. Unggah skill ini dari komputer Anda.
 
 Agar struktur skill rapi saat diunggah, siapkan arsip ZIP yang memuat:
 
