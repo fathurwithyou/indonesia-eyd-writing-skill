@@ -7,7 +7,7 @@ description: Menulis, menyunting, memeriksa, dan menjelaskan teks bahasa Indones
 
 Gunakan skill ini untuk pekerjaan menulis dan penyuntingan bahasa Indonesia yang perlu patuh pada EYD V.
 
-Jadikan `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/` sebagai sumber rujukan utama. Jangan menyalin ulang isi reference ke jawaban atau ke file lain kecuali ringkasan singkat memang dibutuhkan untuk menyelesaikan tugas.
+Jadikan `references/` sebagai sumber rujukan utama. Jangan menyalin ulang isi reference ke jawaban atau ke file lain kecuali ringkasan singkat memang dibutuhkan untuk menyelesaikan tugas.
 
 ## Alur Kerja
 
@@ -17,7 +17,7 @@ Jadikan `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/` s
    - menjawab pertanyaan kaidah; atau
    - menjelaskan alasan revisi.
 2. Tentukan kategori kaidah yang relevan.
-3. Baca hanya file `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/` yang relevan dengan masalah yang sedang ditangani.
+3. Baca hanya file `references/` yang relevan dengan masalah yang sedang ditangani.
 4. Terapkan kaidah tanpa mengubah maksud, fakta, nada, atau tingkat formalitas pengguna kecuali diminta.
 5. Kembalikan hasil sesuai kebutuhan tugas:
    - untuk penyuntingan: berikan versi revisi;
@@ -40,28 +40,28 @@ Pilih file berdasarkan jenis masalah.
 
 ### Penggunaan Huruf
 
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-abjad.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-vokal.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-konsonan.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/gabungan-huruf-vokal.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/gabungan-huruf-konsonan.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-kapital.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-miring.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-tebal.md`
+- `references/huruf-abjad.md`
+- `references/huruf-vokal.md`
+- `references/huruf-konsonan.md`
+- `references/gabungan-huruf-vokal.md`
+- `references/gabungan-huruf-konsonan.md`
+- `references/huruf-kapital.md`
+- `references/huruf-miring.md`
+- `references/huruf-tebal.md`
 
 Gunakan kelompok ini untuk kapitalisasi, huruf miring/tebal, atau pertanyaan bentuk huruf.
 
 ### Penulisan Kata
 
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-dasar.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-turunan.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/pemenggalan-kata.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-depan.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/partikel.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-ganti.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-sandang.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/singkatan-akronim.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/angka-bilangan.md`
+- `references/kata-dasar.md`
+- `references/kata-turunan.md`
+- `references/pemenggalan-kata.md`
+- `references/kata-depan.md`
+- `references/partikel.md`
+- `references/kata-ganti.md`
+- `references/kata-sandang.md`
+- `references/singkatan-akronim.md`
+- `references/angka-bilangan.md`
 
 Gunakan kelompok ini untuk isu seperti:
 
@@ -72,40 +72,40 @@ Gunakan kelompok ini untuk isu seperti:
 
 ### Tanda Baca
 
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-titik.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-koma.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-titik-koma.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-titik-dua.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-hubung.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-pisah.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-elipsis.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-tanya.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-seru.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-petik.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-petik-tunggal.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-kurung.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-kurung-siku.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-apostrof.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/tanda-garis-miring.md`
+- `references/tanda-titik.md`
+- `references/tanda-koma.md`
+- `references/tanda-titik-koma.md`
+- `references/tanda-titik-dua.md`
+- `references/tanda-hubung.md`
+- `references/tanda-pisah.md`
+- `references/tanda-elipsis.md`
+- `references/tanda-tanya.md`
+- `references/tanda-seru.md`
+- `references/tanda-petik.md`
+- `references/tanda-petik-tunggal.md`
+- `references/tanda-kurung.md`
+- `references/tanda-kurung-siku.md`
+- `references/tanda-apostrof.md`
+- `references/tanda-garis-miring.md`
 
 Gunakan kelompok ini untuk pemisahan klausa, dialog/kutipan, sisipan, rentang, bentuk ulang, dan tanda baca lain yang memengaruhi struktur kalimat.
 
 ### Unsur Serapan
 
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/serapan-pengantar.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/serapan-umum.md`
-- `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/serapan-khusus.md`
+- `references/serapan-pengantar.md`
+- `references/serapan-umum.md`
+- `references/serapan-khusus.md`
 
 Gunakan kelompok ini saat pengguna meminta bentuk baku kata serapan atau ketika ada istilah asing yang perlu diputuskan apakah diserap, dimiringkan, atau dipertahankan.
 
 ## Pola Triage Cepat
 
-- Jika masalahnya `dirumah` vs `di rumah`, baca `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/kata-depan.md`.
-- Jika masalahnya `siapa pun` vs `siapapun`, baca `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/partikel.md`.
-- Jika masalahnya nama jabatan, nama lembaga, atau awal kalimat, baca `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/huruf-kapital.md`.
-- Jika masalahnya `PT`, `Dr.`, `DNA`, atau bentuk akronim lain, baca `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/singkatan-akronim.md`.
+- Jika masalahnya `dirumah` vs `di rumah`, baca `references/kata-depan.md`.
+- Jika masalahnya `siapa pun` vs `siapapun`, baca `references/partikel.md`.
+- Jika masalahnya nama jabatan, nama lembaga, atau awal kalimat, baca `references/huruf-kapital.md`.
+- Jika masalahnya `PT`, `Dr.`, `DNA`, atau bentuk akronim lain, baca `references/singkatan-akronim.md`.
 - Jika masalahnya koma, titik dua, tanda petik, atau dialog, baca file tanda baca yang relevan.
-- Jika masalahnya istilah asing atau bentuk serapan, mulai dari `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/serapan-pengantar.md`, lalu lanjut ke `serapan-umum.md` atau `serapan-khusus.md` sesuai kasus.
+- Jika masalahnya istilah asing atau bentuk serapan, mulai dari `references/serapan-pengantar.md`, lalu lanjut ke `serapan-umum.md` atau `serapan-khusus.md` sesuai kasus.
 
 ## Bentuk Output
 
@@ -118,7 +118,7 @@ Sesuaikan keluaran dengan permintaan pengguna.
 
 ## Batasan
 
-- Jangan mengklaim aturan yang tidak didukung oleh `${CLAUDE_PLUGIN_ROOT}/skills/indonesia-eyd-writing-skill/references/` atau sumber resmi yang disebut di dalamnya.
+- Jangan mengklaim aturan yang tidak didukung oleh `references/` atau sumber resmi yang disebut di dalamnya.
 - Jangan memuat seluruh isi reference ke konteks bila hanya satu topik yang relevan.
 - Jangan mengubah istilah teknis, nama merek, atau gaya editorial khusus tanpa alasan jelas.
 - Jangan memaksakan penyesuaian yang mengubah makna kalimat.
