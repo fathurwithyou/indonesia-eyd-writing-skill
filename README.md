@@ -26,7 +26,7 @@ Repositori ini ditujukan untuk membantu agent, developer, penulis, editor, maupu
 
 #### ChatGPT
 
-ChatGPT mendukung **Skills** sebagai workflow yang dapat digunakan ulang dan dibagikan. Skill dapat berisi instruksi, contoh, dan bahkan kode, lalu digunakan secara otomatis ketika relevan. Dokumentasi resmi juga menyebut bahwa skill dapat diunggah dari komputer melalui halaman Skills. ([OpenAI Help Center][1])
+ChatGPT mendukung **Skills** sebagai workflow yang dapat digunakan ulang dan dibagikan. Skill dapat berisi instruksi, contoh, dan bahkan kode, lalu digunakan secara otomatis ketika relevan. Dokumentasi resmi juga menyebut bahwa skill dapat diunggah dari komputer melalui halaman Skills.
 
 Langkah yang disarankan:
 
@@ -54,7 +54,7 @@ Catatan:
 
 * `SKILL.md` sebaiknya berada pada level utama di dalam ZIP.
 * Folder `references/` sebaiknya ikut disertakan agar seluruh referensi kaidah tersedia saat skill digunakan.
-* Dokumentasi resmi juga menyebut bahwa skill saat ini tersedia dalam beta pada ChatGPT **Business**, **Enterprise**, **Edu**, **Teachers**, dan **Healthcare**. ([OpenAI Help Center][1])
+* Dokumentasi resmi juga menyebut bahwa skill saat ini tersedia dalam beta pada ChatGPT **Business**, **Enterprise**, **Edu**, **Teachers**, dan **Healthcare**.
 
 #### Claude
 
@@ -62,7 +62,7 @@ Untuk Claude versi web, skill ini dapat ditambahkan melalui halaman kustomisasi 
 
 Langkah yang disarankan:
 
-1. Buka `https://claude.ai/customize/skills`.
+1. Buka [`https://claude.ai/customize/skills`.](https://claude.ai/customize/skills)
 2. Klik tombol **+**.
 3. Unggah skill ini dalam bentuk **berkas ZIP**.
 4. Pastikan isi ZIP mencakup:
