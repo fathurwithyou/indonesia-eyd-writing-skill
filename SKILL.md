@@ -9,7 +9,8 @@ Gunakan skill ini untuk pekerjaan menulis dan penyuntingan bahasa Indonesia yang
 
 ## Prinsip Utama
 
-- Jadikan `references/eyd/eyd-edisi-v-2022.md` sebagai rujukan utama untuk pertanyaan umum, lintas topik, atau saat perlu pijakan resmi yang paling lengkap.
+- Wajib baca `references/eyd/eyd-v.md` terlebih dahulu sebelum membuka rujukan EYD lain.
+- Jadikan `references/eyd/eyd-v.md` sebagai rujukan utama untuk pertanyaan umum, lintas topik, atau saat perlu pijakan resmi yang paling lengkap.
 - Gunakan file granular di `references/eyd/` hanya jika kasusnya sempit dan spesifik.
 - Gunakan `references/seri-penyuluhan/` hanya saat perlu penjelasan tambahan, contoh, atau pembahasan yang lebih naratif.
 - Gunakan `references/highlights/` hanya untuk ringkasan cepat, bukan untuk mengalahkan kaidah di folder `eyd/`.
@@ -17,7 +18,7 @@ Gunakan skill ini untuk pekerjaan menulis dan penyuntingan bahasa Indonesia yang
 
 ## Urutan Rujukan
 
-1. `references/eyd/eyd-edisi-v-2022.md`
+1. `references/eyd/eyd-v.md`
 2. `references/eyd/<topik-spesifik>.md`
 3. `references/seri-penyuluhan/*.md`
 4. `references/highlights/*.md`
@@ -26,10 +27,11 @@ Gunakan skill ini untuk pekerjaan menulis dan penyuntingan bahasa Indonesia yang
 
 1. Identifikasi bentuk tugas: menulis, menyunting, menjawab kaidah, atau menjelaskan revisi.
 2. Tentukan apakah masalahnya umum atau spesifik.
-3. Jika umum atau bercampur banyak topik, mulai dari `references/eyd/eyd-edisi-v-2022.md`.
-4. Jika spesifik, buka hanya file yang tepat di `references/eyd/`.
-5. Terapkan kaidah tanpa mengubah maksud, fakta, nada, atau tingkat formalitas pengguna kecuali diminta.
-6. Kembalikan hasil sesuai bentuk permintaan pengguna.
+3. Baca `references/eyd/eyd-v.md` terlebih dahulu.
+4. Jika kasusnya masih terlalu umum atau bercampur banyak topik, tetap gunakan `references/eyd/eyd-v.md` sebagai pijakan utama.
+5. Jika spesifik, buka hanya file tambahan yang tepat di `references/eyd/`.
+6. Terapkan kaidah tanpa mengubah maksud, fakta, nada, atau tingkat formalitas pengguna kecuali diminta.
+7. Kembalikan hasil sesuai bentuk permintaan pengguna.
 
 ## Triage Cepat
 
@@ -40,7 +42,7 @@ Gunakan skill ini untuk pekerjaan menulis dan penyuntingan bahasa Indonesia yang
 - angka dan bilangan: `references/eyd/angka-bilangan.md`
 - koma, titik dua, petik, hubung, pisah, elipsis: file terkait di `references/eyd/`
 - unsur serapan: mulai dari `references/eyd/serapan-pengantar.md`
-- jika masalah bercampur antara huruf, kata, dan tanda baca: kembali ke `references/eyd/eyd-edisi-v-2022.md`
+- jika masalah bercampur antara huruf, kata, dan tanda baca: kembali ke `references/eyd/eyd-v.md`
 
 ## Aturan Operasional
 
