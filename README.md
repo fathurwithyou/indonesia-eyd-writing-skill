@@ -10,7 +10,9 @@ Skill ini dapat digunakan untuk:
 
 Isi utama repositori:
 - `SKILL.md` sebagai panduan penggunaan skill,
-- `references/` sebagai kumpulan referensi kaidah bahasa Indonesia.
+- `references/eyd/` sebagai rujukan utama kaidah bahasa Indonesia,
+- `references/seri-penyuluhan/` sebagai rujukan pendamping bernarasi,
+- `references/highlights/` sebagai ringkasan cepat.
 
 Cakupan materi meliputi:
 - penggunaan huruf,
@@ -55,13 +57,16 @@ Struktur ZIP yang disarankan:
 indonesia-eyd-writing-skill.zip
 ├── SKILL.md
 └── references/
-    ├── ...
+    ├── eyd/
+    ├── seri-penyuluhan/
+    └── highlights/
 ```
 
 Catatan:
 
 * `SKILL.md` sebaiknya berada pada level utama di dalam ZIP.
 * Folder `references/` sebaiknya ikut disertakan agar seluruh referensi kaidah tersedia saat skill digunakan.
+* Untuk menjaga konteks tetap ramping, prioritaskan `references/eyd/` sebagai sumber utama.
 * Dokumentasi resmi juga menyebut bahwa skill saat ini tersedia dalam beta pada ChatGPT **Business**, **Enterprise**, **Edu**, **Teachers**, dan **Healthcare**.
 
 #### Claude
@@ -84,7 +89,9 @@ Struktur ZIP yang disarankan:
 indonesia-eyd-writing-skill.zip
 ├── SKILL.md
 └── references/
-    ├── ...
+    ├── eyd/
+    ├── seri-penyuluhan/
+    └── highlights/
 ```
 
 Catatan:
@@ -107,7 +114,9 @@ your-project/
 │       └── indonesia-eyd-writing/
 │           ├── SKILL.md
 │           └── references/
-│               ├── ...
+│               ├── eyd/
+│               ├── seri-penyuluhan/
+│               └── highlights/
 ```
 
 Catatan penting:
@@ -151,7 +160,9 @@ Simpan skill pada direktori berikut:
 ~/.claude/skills/indonesia-eyd-writing/
 ├── SKILL.md
 └── references/
-    ├── ...
+    ├── eyd/
+    ├── seri-penyuluhan/
+    └── highlights/
 ```
 
 Skill pada lokasi ini akan tersedia untuk semua proyek Anda.
@@ -167,7 +178,9 @@ your-project/
         └── indonesia-eyd-writing/
             ├── SKILL.md
             └── references/
-                ├── ...
+                ├── eyd/
+                ├── seri-penyuluhan/
+                └── highlights/
 ```
 
 Skill pada lokasi ini hanya berlaku untuk proyek tersebut.
@@ -185,6 +198,7 @@ Agar skill ini bekerja dengan baik di berbagai platform, ikuti prinsip berikut:
 
 * jadikan `SKILL.md` sebagai sumber instruksi utama,
 * simpan referensi tambahan dalam folder `references/`,
+* utamakan `references/eyd/` sebagai sumber utama dan buka folder lain hanya jika perlu contoh tambahan,
 * gunakan nama folder skill yang jelas dan konsisten,
 * pastikan struktur file tidak berubah saat diarsipkan atau dipindahkan,
 * rujuk referensi yang relevan dari dalam `SKILL.md` bila diperlukan.
