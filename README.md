@@ -1,3 +1,5 @@
+
+
 # Indonesia EYD Writing Skill
 
 Repositori ini dibuat untuk membantu penulisan bahasa Indonesia agar lebih sesuai dengan **EYD V** dan kaidah resmi.
@@ -11,7 +13,7 @@ Skill ini dapat digunakan untuk:
 Isi utama repositori:
 - `SKILL.md` sebagai panduan penggunaan skill,
 - `references/eyd/` sebagai rujukan utama kaidah bahasa Indonesia,
-- `references/seri-penyuluhan/` sebagai rujukan pendamping bernarasi,
+- `references/seri-penyuluhan/` sebagai rujukan pendamping naratif,
 - `references/highlights/` sebagai ringkasan cepat.
 
 Cakupan materi meliputi:
