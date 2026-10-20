@@ -1,215 +1,171 @@
 # Indonesia EYD Writing Skill
 
-Repositori ini dibuat untuk membantu penulisan bahasa Indonesia agar lebih sesuai dengan **EYD V** dan kaidah resmi.
+Skill penulisan bahasa Indonesia untuk naskah riset, karya kreatif, komunikasi profesional, tulisan populer, serta dokumentasi teknis. EYD V menjadi dasar ejaan; tujuan, pembaca, dan medium menentukan cara menulis.
 
-Skill ini dapat digunakan untuk:
-- menulis teks bahasa Indonesia yang lebih baku,
-- menyunting dan melakukan proofreading,
-- memperbaiki ejaan, tanda baca, dan penulisan kata,
-- menjelaskan aturan penulisan secara singkat dan terarah.
+**Visi:** membantu penulis menghasilkan naskah yang akurat, jelas, dan sesuai konteks tanpa kehilangan makna atau suara penulis.
 
-Isi utama repositori:
-- `SKILL.md` sebagai panduan penggunaan skill,
-- `references/eyd/` sebagai rujukan utama kaidah bahasa Indonesia,
-- `references/seri-penyuluhan/` sebagai rujukan pendamping bernarasi,
-- `references/highlights/` sebagai ringkasan cepat.
+Nama teknis `indonesia-eyd-writing-skill` dipertahankan agar instalasi dan pemanggilan sebelumnya tetap dikenali. Nama tampilan: **Penulisan Bahasa Indonesia**.
 
-Cakupan materi meliputi:
-- penggunaan huruf,
-- penulisan kata,
-- tanda baca,
-- unsur serapan.
+## Cakupan
 
-Repositori ini ditujukan untuk membantu agent, developer, penulis, editor, maupun pengguna umum yang ingin menulis bahasa Indonesia dengan lebih rapi, konsisten, dan sesuai pedoman resmi.
+| Profil | Contoh | Fokus |
+| --- | --- | --- |
+| Riset dan akademik | Laporan penelitian, proposal riset, abstrak, tinjauan pustaka | Hubungan klaim dan bukti, batas kepastian, sitasi, konsistensi istilah |
+| Kreatif | Cerpen, novel, puisi, dialog | Suara, irama, sudut pandang, kesinambungan cerita |
+| Profesional | Email, pesan kerja, memo, komentar tiket | Keperluan, konteks, tindakan berikutnya, kesopanan |
+| Populer | Artikel, esai, blog, konten edukatif | Alur gagasan, contoh konkret, keterbacaan, akurasi |
+| Teknis dan produk | Dokumentasi, tutorial, spesifikasi, teks antarmuka | Urutan tindakan, ketepatan istilah, keutuhan kode dan pengenal |
 
-## Cara Memuat Skill
+Profil tulisan berbeda dari tingkat revisi. Untuk setiap profil, pengguna dapat meminta **koreksi**, **sunting**, **tata ulang**, **tulis**, atau **penjelasan kaidah**. Jika tidak disebutkan, agen memilih perubahan paling kecil yang memenuhi permintaan.
 
-### Instalasi dengan npx
+Skill tidak menggantikan pedoman penerbit, verifikasi sumber, atau pemeriksaan fakta. Panduan genre merupakan saran editorial; ketentuan ejaan dirujukkan ke EYD. Tidak ada salinan KBBI dalam paket.
 
-Untuk memasang skill ini langsung dari GitHub menggunakan `npx`, jalankan perintah berikut:
+## Struktur dan pemuatan konteks
+
+Sumber utama yang diedit berada pada akar repositori:
+
+| Lokasi | Fungsi |
+| --- | --- |
+| `SKILL.md` | Menentukan konteks, tingkat revisi, profil, rujukan, dan pemeriksaan akhir |
+| `references/editorial/context.md` | Ringkasan konteks dan konsistensi proyek panjang |
+| `references/editorial/principles.md` | Kejelasan, suara, dan penjagaan makna |
+| `references/editorial/sources.md` | Kewenangan EYD, KBBI, pedoman institusi, dan sumber fakta |
+| `references/profiles/*.md` | Alur dan tolok mutu untuk lima jenis tulisan |
+| `references/eyd/` | Naskah utama EYD V dan rujukan per topik |
+| `references/seri-penyuluhan/` | Penjelasan pendamping tentang ejaan, kalimat, dan pilihan kata |
+| `references/highlights/` | Ikhtisar cepat |
+| `agents/openai.yaml` | Nama tampilan dan contoh prompt untuk host yang mendukungnya |
+| `skills/indonesia-eyd-writing-skill/` | Salinan distribusi plugin, dibangkitkan dari sumber utama |
+| `scripts/` | Sinkronisasi serta pemeriksaan struktur distribusi |
+| `evals/cases.json` | Kasus evaluasi perilaku dan kriteria penilaian |
+
+Agen memuat panduan utama, satu profil yang sesuai, lalu bagian rujukan yang diperlukan. Pertanyaan ejaan murni tidak membutuhkan profil. Tugas campuran dapat memuat dua profil. Seluruh korpus EYD tidak perlu dimasukkan ke konteks sekaligus.
+
+## Instalasi
+
+### Menggunakan skills CLI
 
 ```bash
-npx skills add https://github.com/fathurwithyou/indonesia-eyd-writing-skill --skill indonesia-eyd-writing-skill
+npx skills add fathurwithyou/indonesia-eyd-writing-skill --skill indonesia-eyd-writing-skill
 ```
 
-### 1. ChatGPT / Claude
+Pilih agen tujuan pada dialog pemasangan. Instalasi CLI ini terpisah dari pemasangan plugin Claude Code; pilih satu jalur agar skill tidak muncul dua kali.
 
-#### ChatGPT
-
-ChatGPT mendukung **Skills** sebagai workflow yang dapat digunakan ulang dan dibagikan. Skill dapat berisi instruksi, contoh, dan bahkan kode, lalu digunakan secara otomatis ketika relevan. Dokumentasi resmi juga menyebut bahwa skill dapat diunggah dari komputer melalui halaman Skills.
-
-Langkah yang disarankan:
-
-1. Buka menu profil di ChatGPT.
-2. Masuk ke halaman **Skills**.
-3. Klik **New skill**.
-4. Pilih **Upload from your computer**.
-5. Unggah skill ini dari komputer Anda.
-
-Agar struktur skill rapi saat diunggah, siapkan arsip ZIP yang memuat:
-
-* `SKILL.md`
-* folder `references/`
-
-Struktur ZIP yang disarankan:
+### Claude Code melalui marketplace
 
 ```text
-indonesia-eyd-writing-skill.zip
-├── SKILL.md
-└── references/
-    ├── eyd/
-    ├── seri-penyuluhan/
-    └── highlights/
-```
-
-Catatan:
-
-* `SKILL.md` sebaiknya berada pada level utama di dalam ZIP.
-* Folder `references/` sebaiknya ikut disertakan agar seluruh referensi kaidah tersedia saat skill digunakan.
-* Untuk menjaga konteks tetap ramping, prioritaskan `references/eyd/` sebagai sumber utama.
-* Dokumentasi resmi juga menyebut bahwa skill saat ini tersedia dalam beta pada ChatGPT **Business**, **Enterprise**, **Edu**, **Teachers**, dan **Healthcare**.
-
-#### Claude
-
-Untuk Claude versi web, skill ini dapat ditambahkan melalui halaman kustomisasi skill.
-
-Langkah yang disarankan:
-
-1. Buka [`https://claude.ai/customize/skills`.](https://claude.ai/customize/skills)
-2. Klik tombol **+**.
-3. Unggah skill ini dalam bentuk **berkas ZIP**.
-4. Pastikan isi ZIP mencakup:
-
-   * `SKILL.md`
-   * folder `references/`
-
-Struktur ZIP yang disarankan:
-
-```text
-indonesia-eyd-writing-skill.zip
-├── SKILL.md
-└── references/
-    ├── eyd/
-    ├── seri-penyuluhan/
-    └── highlights/
-```
-
-Catatan:
-
-* Pastikan `SKILL.md` berada pada level utama di dalam ZIP.
-* Folder `references/` sebaiknya ikut dimasukkan agar seluruh referensi kaidah dapat digunakan bersama skill.
-
----
-
-### 2. Codex
-
-Codex mendukung skill secara native. Untuk memuat skill ini, simpan repositori atau isi skill ke dalam direktori `.agents/skills/` pada proyek Anda.
-
-Struktur yang disarankan:
-
-```text
-your-project/
-├── .agents/
-│   └── skills/
-│       └── indonesia-eyd-writing/
-│           ├── SKILL.md
-│           └── references/
-│               ├── eyd/
-│               ├── seri-penyuluhan/
-│               └── highlights/
-```
-
-Catatan penting:
-
-* `SKILL.md` adalah berkas utama yang wajib ada.
-* Folder `references/` dapat diletakkan dalam direktori skill yang sama.
-* Nama folder skill dapat disesuaikan, tetapi sebaiknya ringkas dan deskriptif, misalnya `indonesia-eyd-writing`.
-
-Praktik yang disarankan:
-
-* simpan semua referensi pendukung di dalam folder skill yang sama,
-* tulis rujukan ke berkas referensi dari `SKILL.md` bila diperlukan,
-* gunakan struktur yang konsisten agar mudah dipindahkan ke proyek lain.
-
----
-
-### 3. Claude Code
-
-Claude Code mendukung skill ini melalui **plugin marketplace** maupun pemasangan manual.
-
-#### Opsi A — Instalasi dari Marketplace (Disarankan)
-
-Tambahkan marketplace dan pasang plugin langsung dari GitHub:
-
-```
 /plugin marketplace add fathurwithyou/indonesia-eyd-writing-skill
 /plugin install indonesia-eyd-writing-skill@indonesia-eyd
 ```
 
-Setelah terpasang, panggil skill dengan:
+### Pemasangan manual
 
-```
-/indonesia-eyd-writing-skill
-```
+Salin `SKILL.md`, `references/`, dan `agents/` sebagai satu folder skill ke lokasi yang sesuai. Jangan menyalin seluruh repositori ke dalam folder skill sehingga salinan distribusinya ikut terpasang dua kali.
 
-#### Opsi B — Personal Skill (Manual)
+| Lingkungan | Folder proyek | Folder pengguna |
+| --- | --- | --- |
+| Codex CLI / IDE | `.agents/skills/indonesia-eyd-writing-skill/` | `~/.agents/skills/indonesia-eyd-writing-skill/` |
+| Claude Code | `.claude/skills/indonesia-eyd-writing-skill/` | `~/.claude/skills/indonesia-eyd-writing-skill/` |
 
-Simpan skill pada direktori berikut:
+Untuk host dengan unggah skill, sertakan tiga komponen yang sama sesuai mekanisme unggah host tersebut. Ketersediaan dan tampilan pengelolaan skill mengikuti produk yang digunakan.
+
+## Cara memanggil
+
+| Lingkungan | Pemanggilan eksplisit |
+| --- | --- |
+| ChatGPT dengan skill yang sudah tersedia | Ketik `@`, lalu pilih **Penulisan Bahasa Indonesia** atau nama yang terdaftar |
+| Codex CLI / IDE | `$indonesia-eyd-writing-skill`; gunakan `/skills` untuk melihat daftar |
+| Claude Code, instalasi skill langsung | `/indonesia-eyd-writing-skill` |
+| Claude Code, instalasi plugin marketplace | `/indonesia-eyd-writing-skill:indonesia-eyd-writing-skill` |
+
+Profil seperti `riset` dan `kreatif` merupakan konteks dalam prompt, bukan subperintah terpisah. Tidak ada perintah `/riset` atau `$riset` dalam paket ini. Agen juga dapat memilih skill secara otomatis jika deskripsi tugas cocok; gunakan pemanggilan eksplisit untuk memastikan pilihan.
+
+### Contoh riset
 
 ```text
-~/.claude/skills/indonesia-eyd-writing/
-├── SKILL.md
-└── references/
-    ├── eyd/
-    ├── seri-penyuluhan/
-    └── highlights/
+$indonesia-eyd-writing-skill
+Sunting latar belakang laporan penelitian tentang umur simpan roti
+untuk pembaca jurnal pangan.
+Perjelas alur masalah dan pertahankan istilah, sitasi, serta tingkat kepastian.
+Jangan menambahkan klaim atau referensi. Berikan naskah revisi saja.
+
+[paragraf]
 ```
 
-Skill pada lokasi ini akan tersedia untuk semua proyek Anda.
-
-#### Opsi C — Project Skill
-
-Simpan skill pada direktori berikut:
+### Contoh kreatif
 
 ```text
-your-project/
-└── .claude/
-    └── skills/
-        └── indonesia-eyd-writing/
-            ├── SKILL.md
-            └── references/
-                ├── eyd/
-                ├── seri-penyuluhan/
-                └── highlights/
+$indonesia-eyd-writing-skill
+Sunting cerpen tentang penjaga mercusuar berikut pada tingkat kalimat.
+Pertahankan sudut pandang orang pertama, dialog informal, dan suasana sepi.
+Jangan menambah tokoh atau mengubah akhir cerita.
+
+[cerpen]
 ```
 
-Skill pada lokasi ini hanya berlaku untuk proyek tersebut.
+### Contoh profesional
 
-Catatan:
+```text
+$indonesia-eyd-writing-skill
+Rapikan pesan kepada pemasok untuk meminta konfirmasi jadwal pengiriman.
+Tetap sopan dan lugas, maksimal 80 kata. Jangan menambah tenggat atau janji.
 
-* `SKILL.md` adalah titik masuk utama skill.
-* Folder `references/` dapat disimpan dalam direktori yang sama.
-* Bila skill ini ingin dibagikan ke anggota tim, direktori `.claude/skills/` dapat ikut dimasukkan ke version control.
-* Struktur yang rapi akan memudahkan Claude Code memuat referensi tambahan dari skill ini.
+[pesan]
+```
 
-## Rekomendasi Penggunaan
+### Contoh populer
 
-Agar skill ini bekerja dengan baik di berbagai platform, ikuti prinsip berikut:
+```text
+$indonesia-eyd-writing-skill
+Tulis artikel 500 kata tentang pengurangan sisa makanan di rumah tangga
+berdasarkan catatan berikut. Gunakan satu contoh hipotetis yang jelas
+ditandai. Jangan mengarang statistik.
 
-* jadikan `SKILL.md` sebagai sumber instruksi utama,
-* simpan referensi tambahan dalam folder `references/`,
-* utamakan `references/eyd/` sebagai sumber utama dan buka folder lain hanya jika perlu contoh tambahan,
-* gunakan nama folder skill yang jelas dan konsisten,
-* pastikan struktur file tidak berubah saat diarsipkan atau dipindahkan,
-* rujuk referensi yang relevan dari dalam `SKILL.md` bila diperlukan.
+[catatan]
+```
 
-## Ringkasan
+### Contoh teknis
 
-* **ChatGPT**: unggah skill melalui halaman **Skills** dengan opsi **Upload from your computer**.
-* **Claude**: unggah skill dalam bentuk ZIP yang berisi `SKILL.md` dan `references/`.
-* **Codex**: simpan skill di `.agents/skills/<nama-skill>/`.
-* **Claude Code**: pasang dari marketplace dengan `/plugin marketplace add fathurwithyou/indonesia-eyd-writing-skill`, atau simpan manual di `~/.claude/skills/` atau `.claude/skills/` dalam proyek.
+```text
+$indonesia-eyd-writing-skill
+Sunting petunjuk penggunaan mesin pengemas berikut untuk operator baru.
+Perjelas prasyarat dan urutan langkah. Pertahankan kode model, nama tombol,
+suhu, dan durasi. Tandai kemampuan alat yang belum didukung bahan sumber.
 
-## License
+[petunjuk]
+```
 
-MIT
+### Konteks yang membantu
+
+Untuk permintaan singkat, cukup berikan tugas dan teks. Untuk proyek panjang, tambahkan pembaca, tujuan, bahan/sumber, ragam, panjang, pedoman institusi, bagian yang harus dipertahankan, dan bentuk keluaran. Agen tidak perlu meminta semuanya jika sudah jelas dari konteks.
+
+Contoh ringkas: `Sunting abstrak penelitian pengeringan mangga ini untuk pembaca jurnal pangan, maksimal 200 kata, pertahankan angka dan sitasi, keluaran naskah saja.`
+
+Seluruh contoh buatan menggunakan situasi rekaan yang umum. Identitas, pengalaman, institusi, dan proyek dari memori atau riwayat percakapan pengguna tidak digunakan sebagai bahan contoh tanpa permintaan eksplisit.
+
+## Pemeliharaan
+
+Edit sumber pada akar repositori, lalu bangkitkan salinan plugin:
+
+```bash
+python3 scripts/sync_distribution.py
+python3 scripts/check_skill.py
+```
+
+Pemeriksaan memerlukan Python 3.10+ dan PyYAML (`python3 -m pip install PyYAML`). CI memeriksa metadata, tautan sumber utama, kelengkapan rujukan, manifest, dan kesamaan salinan distribusi. Skrip sinkronisasi hanya menulis `SKILL.md`, `references/`, dan `agents/` pada folder distribusi yang sudah ditentukan.
+
+Kasus dalam `evals/cases.json` digunakan untuk evaluasi perilaku agen, bukan tes kecocokan kalimat persis. Jalankan prompt pada sesi baru dengan skill terpasang, kemudian nilai tiap kriteria berdasarkan jawaban dan jejak pembacaan berkas. Pemeriksaan struktur tidak membuktikan mutu penulisan atau kebenaran seluruh salinan rujukan.
+
+Untuk menambah jenis tulisan, buat satu profil dengan konteks minimum, alur, batas perubahan, contoh, dan tolok mutu; daftarkan di `SKILL.md`; tambah kasus evaluasi; sinkronkan distribusi. Pisahkan menjadi skill mandiri hanya jika alur dan pemanggilannya memang perlu berdiri sendiri.
+
+## Rujukan
+
+- EYD V: https://ejaan.kemendikdasmen.go.id/eyd/
+- KBBI Daring: https://kbbi.kemendikdasmen.go.id/
+- Skill ChatGPT dan Codex: https://learn.chatgpt.com/docs/build-skills
+- Skill Claude Code: https://code.claude.com/docs/en/skills
+- skills CLI: https://github.com/vercel-labs/skills
+
+## Lisensi
+
+Kode dan instruksi asli repositori mengikuti [LICENSE](LICENSE). Dokumen rujukan Badan Bahasa tetap diatribusikan kepada sumbernya; lisensi repositori tidak dimaksudkan untuk mengubah hak atas dokumen pihak ketiga.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Penulisan Bahasa Indonesia"
+  short_description: "Penulisan kontekstual untuk riset, cerita, dan kerja"
+  default_prompt: "Gunakan $indonesia-eyd-writing-skill untuk menyunting teks berikut sesuai pembaca dan tujuan, dengan mempertahankan makna serta suara penulis."

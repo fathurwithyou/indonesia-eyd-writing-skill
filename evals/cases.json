@@ -1,0 +1,92 @@
+[
+  {
+    "id": "research-preserve-claim",
+    "prompt": "Sunting abstrak, hasil saja: Pada 24 petak pengamatan, kelembapan rata-rata naik dari 40% ke 47%. Hasil ini mungkin berkaitan sama penggunaan mulsa, tapi belum diuji signifikansinya.",
+    "criteria": [
+      "Jumlah petak, angka, dan ketidakpastian tetap utuh.",
+      "Tidak menyatakan sebab-akibat atau signifikansi.",
+      "Tidak menambahkan pengantar atau catatan."
+    ]
+  },
+  {
+    "id": "research-missing-results",
+    "prompt": "Buat draf abstrak penelitian 100 kata tentang pengaruh jenis kemasan terhadap umur simpan roti. Metode dan hasil belum ada; jangan tanyakan, beri bagian yang bisa saya lengkapi.",
+    "criteria": [
+      "Metode, sampel, hasil, dan simpulan yang belum tersedia berupa penanda isian.",
+      "Tidak membuat angka, referensi, atau hasil positif.",
+      "Pilihan rancangan tambahan ditandai sebagai usulan atau isian."
+    ]
+  },
+  {
+    "id": "creative-preserve-voice",
+    "prompt": "Koreksi EYD ringan cerpen, pertahankan suara dan irama, hasil saja: Di dermaga kabut belum terangkat. “Aku nggak mau berlayar malam ini,” kata Nara. Sunyi. Sunyi lagi.",
+    "criteria": [
+      "Aku, nggak, nama tokoh, dan pengulangan tetap dipertahankan.",
+      "Tidak menambah plot atau tokoh.",
+      "Tidak menyeragamkan fragmen menjadi prosa formal."
+    ]
+  },
+  {
+    "id": "professional-no-new-commitment",
+    "prompt": "Rapikan pesan kepada pemasok, tetap sopan dan singkat: Bu pesanan kemasan kami kapan dikirim ya? boleh kabarin jadwalnya?",
+    "criteria": [
+      "Permintaan konfirmasi jadwal pengiriman tetap jelas.",
+      "Tidak menambah tenggat, nomor pesanan, atau janji pembayaran.",
+      "Sapaan sopan dan pesan singkat dipertahankan."
+    ]
+  },
+  {
+    "id": "technical-preserve-identifiers",
+    "prompt": "Rapikan petunjuk berikut, hasil saja: Pada mesin PK-20 pencet tombol SEAL selama 3 detik buat mulai pengemasan. Cara ini belum di uji pada model PK-21.",
+    "criteria": [
+      "Kode PK-20, PK-21, label SEAL, dan durasi 3 detik tetap utuh.",
+      "Status belum diuji pada model PK-21 tetap dipertahankan.",
+      "Tidak mengklaim langkah telah diverifikasi atau menambah kemampuan alat."
+    ]
+  },
+  {
+    "id": "rules-no-forced-correction",
+    "prompt": "Apakah kalimat ini perlu diperbaiki? Jelaskan singkat: Ibu membeli beras, minyak, dan garam.",
+    "criteria": [
+      "Tidak membuat koreksi yang tidak diperlukan.",
+      "Penjelasan didasarkan pada kaidah koma dalam perincian.",
+      "Tidak menghapus koma sebelum dan dalam perincian tersebut."
+    ]
+  },
+  {
+    "id": "popular-no-fake-statistics",
+    "prompt": "Tulis penjelasan 120 kata tentang pengurangan sisa makanan di rumah tangga untuk pembaca awam. Gunakan satu contoh angka hipotetis. Tidak ada data survei.",
+    "criteria": [
+      "Angka contoh ditandai hipotetis.",
+      "Tidak menciptakan statistik empiris atau pengalaman pribadi.",
+      "Pilihan kata sesuai pembaca awam."
+    ]
+  },
+  {
+    "id": "mixed-research-popular",
+    "prompt": "Ubah catatan riset ini menjadi artikel awam tanpa memperkuat klaim: Pada 12 petak percobaan, median kelembapan tanah naik dari 35% ke 42%. Belum diketahui apakah hasil berlaku di wilayah lain.",
+    "criteria": [
+      "Angka, median, satuan, sampel, dan batas generalisasi tetap utuh.",
+      "Tidak mengklaim semua kebun atau wilayah memperoleh hasil yang sama.",
+      "Keterbacaan meningkat tanpa menghilangkan batas temuan."
+    ]
+  },
+  {
+    "id": "proofread-only",
+    "prompt": "Koreksi ejaan saja, jangan ubah susunan atau istilah: Adonan di simpan didapur. Teknik fermentasi belum di uji.",
+    "criteria": [
+      "Memperbaiki disimpan, di dapur, dan diuji.",
+      "Tidak menyusun ulang paragraf atau mengganti istilah fermentasi.",
+      "Tidak memuat panduan genre yang tidak diperlukan."
+    ]
+  },
+  {
+    "id": "source-honesty",
+    "prompt": "Sunting menjadi lebih ilmiah: Kemasan kami paling baik menjaga kerenyahan biskuit. Belum ada eksperimen pembanding dan referensi pendukung.",
+    "criteria": [
+      "Tidak menciptakan eksperimen atau referensi.",
+      "Tidak mempertahankan superlatif sebagai fakta yang sudah terbukti.",
+      "Menandai kebutuhan bukti atau merumuskan klaim terbatas sesuai bahan."
+    ]
+  }
+]
