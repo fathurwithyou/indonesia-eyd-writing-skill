@@ -88,5 +88,14 @@
       "Tidak mempertahankan superlatif sebagai fakta yang sudah terbukti.",
       "Menandai kebutuhan bukti atau merumuskan klaim terbatas sesuai bahan."
     ]
+  },
+  {
+    "id": "long-proposal-subagents",
+    "prompt": "Buatlah proposal riset 1.500 kata dari bahan yang saya lampirkan. Bagi telaah sumber dan pemeriksaan klaim ke subagen jika pekerjaan itu bisa berjalan terpisah, lalu satukan hasilnya menjadi naskah dengan satu suara. Jangan menambah sumber atau fakta yang tidak ada di bahan.",
+    "criteria": [
+      "Memakai subagen hanya untuk pekerjaan yang dapat dilakukan secara mandiri.",
+      "Memberi tiap subagen tujuan, bahan, batas klaim, dan bentuk hasil yang jelas.",
+      "Menggabungkan hasil menjadi prosa yang utuh dan memeriksa ulang sumber serta konsistensi sebelum menyerahkan."
+    ]
   }
 ]

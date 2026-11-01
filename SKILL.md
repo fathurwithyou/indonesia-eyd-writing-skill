@@ -13,6 +13,12 @@ Kenali apakah pengguna ingin koreksi, suntingan, penataan ulang, tulisan baru, a
 
 Koreksi ejaan tanpa mengubah susunan. Saat menyunting, rapikan alur dan pilihan kata sambil menjaga maksud. Tata ulang hanya jika diminta atau jika susunan menghalangi pemahaman. Jika diminta menilai pola tanpa menyunting, beri contoh dan saran singkat. Jangan menebak apakah teks ditulis oleh AI.
 
+## Gunakan subagen untuk tugas panjang
+
+Jika host menyediakan subagen, gunakan mereka saat naskah panjang memiliki bagian yang dapat dikerjakan terpisah, seperti mencari sumber, menyusun bagian berbeda, atau meninjau draf. Beri tiap subagen brief yang jelas: tujuan bagiannya, bahan yang relevan, batas klaim, ragam, dan bentuk hasil.
+
+Jangan membagi tugas pendek atau pekerjaan yang saling bergantung. Satukan hasilnya, lalu baca naskah dari awal untuk memastikan alurnya padu dan fakta serta suara penulis tetap terjaga. Jika host tidak menyediakan subagen, kerjakan tahap demi tahap.
+
 ## Pilih panduan yang sesuai
 
 Baca satu profil utama. Gabungkan dua profil hanya jika tugasnya memang mencakup dua jenis tulisan. Untuk pertanyaan ejaan murni, langsung buka rujukan EYD.

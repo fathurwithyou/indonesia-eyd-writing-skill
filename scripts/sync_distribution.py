@@ -19,7 +19,7 @@ def source_files():
             if not path.is_dir():
                 raise FileNotFoundError(path)
             for child in path.rglob("*"):
-                if child.is_file():
+                if child.is_file() and child.name != ".DS_Store":
                     result[child.relative_to(ROOT)] = child.read_bytes()
     return result
 
@@ -30,7 +30,7 @@ def differences():
         p.relative_to(DEST): p.read_bytes()
         for name in MANAGED
         for p in ([DEST / name] if (DEST / name).is_file() else (DEST / name).rglob("*"))
-        if p.is_file()
+        if p.is_file() and p.name != ".DS_Store"
     }
     return sorted(str(p) for p in expected.keys() | actual.keys() if expected.get(p) != actual.get(p))
 
@@ -56,7 +56,7 @@ def main():
             shutil.rmtree(target)
         source = ROOT / name
         if source.is_dir():
-            shutil.copytree(source, target)
+            shutil.copytree(source, target, ignore=shutil.ignore_patterns(".DS_Store"))
         else:
             shutil.copy2(source, target)
     print(f"Synced {len(source_files())} files to {DEST.relative_to(ROOT)}")
