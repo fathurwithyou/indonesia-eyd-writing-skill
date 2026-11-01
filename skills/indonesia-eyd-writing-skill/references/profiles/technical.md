@@ -1,26 +1,24 @@
-# Tulisan teknis dan produk
+# Tulisan Teknis dan Produk
 
-Bantu pembaca memahami sistem, menjalankan tugas, atau mengambil keputusan. Utamakan ketepatan istilah dan tindakan yang dapat diikuti.
+Gunakan profil ini untuk panduan, dokumentasi, spesifikasi, dan teks antarmuka. Bantu pembaca memahami sistem atau menyelesaikan tugas dengan tepat.
 
-## Konteks minimum
+## Pahami tugas
 
-Kenali peran pembaca, tujuan tugas, versi produk, lingkungan, prasyarat, serta batasan yang tersedia. Untuk spesifikasi, bedakan perilaku saat ini, usulan, dan kriteria penerimaan.
+Cari tahu siapa pembacanya, apa yang ingin mereka lakukan, serta versi produk dan lingkungan yang dipakai. Untuk spesifikasi, jelaskan mana perilaku yang sudah ada dan mana yang masih berupa usulan.
 
-## Alur penulisan
+## Jelaskan dengan urut
 
-1. Mulai dari hasil atau tugas yang ingin dicapai pembaca.
-2. Jelaskan prasyarat sebelum langkah yang bergantung padanya.
-3. Susun langkah berurutan dan sertakan hasil yang diharapkan jika diketahui.
-4. Definisikan istilah pada kemunculan pertama; gunakan istilah yang sama untuk konsep yang sama.
-5. Pisahkan instruksi, contoh, peringatan yang relevan, dan penjelasan mekanisme.
+Mulailah dari hasil yang ingin dicapai. Sebutkan hal yang perlu disiapkan sebelum memberi langkah, lalu urutkan petunjuknya agar pembaca bisa mengikutinya. Jika tahu hasil yang seharusnya terlihat, jelaskan juga. Terangkan istilah teknis saat pertama kali muncul dan gunakan istilah yang sama untuk hal yang sama.
 
-## Batas perubahan
+Pisahkan petunjuk dari contoh dan penjelasan cara kerja. Tambahkan peringatan hanya jika ada risiko yang perlu diketahui pembaca.
 
-- Pertahankan kode, perintah, nama variabel, skema, URL, jalur berkas, satuan, dan nama produk secara tepat.
-- Jangan memperbaiki ejaan di dalam kode atau pengenal secara otomatis. Jika terlihat salah, beri catatan terpisah atau ubah hanya dalam lingkup tugas pemrograman yang diizinkan.
-- Jangan mengklaim perintah berhasil, fitur tersedia, atau perilaku diuji jika belum diperiksa. Tandai contoh ilustratif jika bukan keluaran aktual.
-- Jika versi atau perilaku belum diketahui dan menentukan kebenaran instruksi, verifikasi dengan dokumentasi yang sesuai atau minta konteks.
-- Untuk label tombol dan pesan galat, gunakan bahasa ringkas serta jelaskan tindakan pemulihan yang memang tersedia. Jangan menjanjikan penyimpanan atau keamanan yang tidak didukung perilaku sistem.
+## Jaga ketepatan
+
+- Pertahankan kode, perintah, nama variabel, skema, URL, jalur berkas, satuan, dan nama produk apa adanya.
+- Jangan membetulkan teks di dalam kode atau pengenal secara otomatis. Jika ada yang tampak salah, beri catatan terpisah atau ubah hanya jika memang termasuk dalam tugas.
+- Jangan mengatakan perintah berhasil, fitur tersedia, atau perilaku sudah diuji jika belum diperiksa. Tandai contoh rekaan sebagai ilustrasi.
+- Jika versi atau perilaku produk menentukan benar tidaknya petunjuk, periksa dokumentasi yang sesuai atau minta informasi yang belum ada.
+- Untuk tombol dan pesan galat, gunakan kata singkat dan beri langkah pemulihan yang memang tersedia. Jangan menjanjikan penyimpanan atau keamanan yang tidak didukung sistem.
 
 ## Contoh
 
@@ -28,8 +26,8 @@ Kenali peran pembaca, tujuan tugas, versi produk, lingkungan, prasyarat, serta b
 
 **Revisi:** “Pada mesin PK-20, tekan tombol SEAL selama 3 detik untuk memulai pengemasan.”
 
-Kode model, label tombol, dan durasi tetap utuh. Contoh ini rekaan untuk memperlihatkan penyuntingan bahasa, bukan petunjuk penggunaan alat yang telah diverifikasi.
+Nama mesin, label tombol, dan durasi tetap sama. Contoh ini hanya menunjukkan penyuntingan bahasa, bukan petunjuk alat yang sudah diperiksa.
 
-## Tolok mutu
+## Periksa hasil
 
-Pastikan urutan langkah masuk akal, prasyarat terlihat, istilah konsisten, serta pengenal teknis tidak berubah. Untuk antarmuka, pastikan teks menjelaskan keadaan dan pilihan pengguna sesuai perilaku produk yang diketahui.
+Pastikan urutan langkah masuk akal dan istilahnya konsisten. Untuk antarmuka, pastikan teks sesuai dengan keadaan sistem dan pilihan yang benar-benar tersedia bagi pengguna.

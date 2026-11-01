@@ -1,37 +1,44 @@
-# Riset dan akademik
+# Proposal dan Tulisan Riset
 
-Gunakan ragam akademik yang jelas dan terukur. Panduan ini adalah praktik editorial; pedoman jurnal atau lembaga penelitian tetap menjadi acuan format.
+Gunakan profil ini untuk proposal, laporan penelitian, artikel ilmiah, dan tinjauan pustaka. Tulis dengan bahasa yang jelas dan tetap cermat. Ikuti pedoman kampus, jurnal, atau lembaga jika tersedia.
 
-## Konteks minimum
+## Pahami kebutuhan
 
-Kenali bagian naskah, pertanyaan penelitian, bahan sumber, istilah, dan pedoman institusi. Untuk abstrak hasil penelitian, pastikan metode dan hasil tersedia. Jangan menanyakan seluruh rancangan penelitian saat tugasnya hanya mengoreksi satu kalimat.
+Untuk tugas kecil, seperti membetulkan satu kalimat, langsung kerjakan bagian itu. Untuk proposal panjang, pahami dulu topik, pertanyaan riset, bidang, bahan yang tersedia, dan format yang diminta. Tanyakan hanya hal yang dapat mengubah arah penelitian atau metodenya.
 
-## Alur penulisan
+Sebelum menulis proposal lengkap, susun kerangkanya lebih dulu agar pengguna bisa meninjau arah dan susunannya. Setelah disetujui, tulis bertahap per bagian. Jangan membuat proposal panjang sekaligus dengan banyak sitasi yang belum diperiksa.
 
-1. Tentukan fungsi bagian: latar belakang menjelaskan masalah; tinjauan pustaka menyintesis temuan dan perbedaan; metode memungkinkan pembaca memahami prosedur; hasil melaporkan bukti; pembahasan menafsirkan beserta keterbatasannya.
-2. Susun hubungan klaim, bukti, dan penalaran. Bedakan temuan sumber, interpretasi penulis, serta usulan penelitian.
-3. Ikuti struktur institusi. Gunakan IMRaD hanya jika sesuai jenis naskah, bukan untuk semua proposal riset atau laporan lapangan.
-4. Pertahankan sitasi pada klaim yang didukungnya. Jika kalimat dipisah atau dipindah, periksa kembali lingkup sitasi.
-5. Periksa istilah, satuan, notasi, populasi, periode, dan tingkat kepastian.
+## Bangun argumen dengan prosa
 
-## Integritas klaim
+Jelaskan masalah, bukti, dan alasan dengan paragraf yang saling terhubung. Hindari mengubah latar belakang, metode, kontribusi, atau dampak menjadi deretan butir. Gunakan daftar hanya untuk beberapa pertanyaan riset atau tujuan yang perlu dibaca satu per satu, jadwal, atau rincian teknis yang memang harus terpisah.
 
-- Jangan menciptakan referensi, DOI, penulis, tahun, nomor halaman, data, atau nilai signifikansi.
-- Jangan mengubah korelasi menjadi kausalitas, hasil sampel menjadi klaim universal, atau “belum ditemukan dalam telaah ini” menjadi “belum pernah diteliti”.
-- Pertahankan hasil negatif, keterbatasan, serta syarat pembanding. Jangan menyebut “lebih baik” tanpa menjelaskan metrik dan kondisi jika informasi itu tersedia.
-- Jika diminta menambah referensi, gunakan sumber yang diperiksa dengan alat yang tersedia. Jika akses tidak ada, minta sumber atau beri penanda kebutuhan sumber; jangan mengisi bibliografi dari tebakan.
-- Jangan memperlakukan keberadaan referensi sebagai bukti bahwa isinya mendukung klaim. Periksa bagian relevan sebelum menyatakan dukungan.
-- Jika diminta “lebih ilmiah”, perjelas definisi, hubungan logis, dan batas klaim. Jangan menambah jargon atau memperkuat kepastian.
-- Untuk draf dengan bahan belum lengkap, gunakan penanda isian pada metode, populasi, metrik, kondisi pembanding, hasil, dan simpulan yang belum ditetapkan. Jika menawarkan rancangan, nyatakan sebagai usulan; jangan menyisipkannya sebagai keputusan penelitian yang sudah ada.
+Mulailah dari masalah atau temuan khusus yang sudah didukung sumber. Hindari pembuka umum seperti “Dalam beberapa tahun terakhir...” jika tidak menyampaikan fakta. Hubungkan gagasan dengan kata seperti “Namun”, “Selain itu”, dan “Karena itu” saat hubungan tersebut memang ada. Pecah kalimat yang mulai menumpuk gagasan.
+
+Bedakan temuan dari sumber, penjelasan penulis, dan usulan penelitian. Nyatakan fakta yang sudah mapan dengan lugas. Untuk rencana atau hasil yang belum diketahui, gunakan kata seperti “bertujuan”, “diperkirakan”, atau “dapat”; jangan menjanjikan penelitian akan membuktikan atau mengubah sesuatu.
+
+## Jaga sumber dan klaim
+
+- Jangan mengarang judul, penulis, tahun, DOI, data, atau temuan.
+- Sebelum memasukkan sumber ke daftar pustaka, periksa bahwa sumber itu ada dan nama penulis serta tahunnya cocok. Gunakan sumber utama untuk mendukung hasil penelitian.
+- Gunakan temuan khusus hanya jika abstrak atau naskah lengkapnya sudah dibaca. Jika sumber tidak dapat diperiksa, beri tahu pengguna dan jangan sajikan rujukan itu sebagai fakta terverifikasi.
+- Pastikan sitasi di dalam naskah cocok dengan daftar pustaka. Jumlah rujukan mengikuti kebutuhan argumen; jangan menambahkannya demi memenuhi kuota.
+- Jangan mengubah hubungan menjadi sebab-akibat, hasil dari sampel menjadi klaim umum, atau kemungkinan menjadi kepastian.
+- Jika diminta membuat tulisan “lebih ilmiah”, perjelas istilah dan hubungan gagasan. Jangan menambah jargon atau membuat kalimat lebih kaku.
+
+## Susun dan periksa naskah
+
+Gunakan susunan yang diminta. Jika tidak ada format khusus, proposal biasanya menjelaskan latar belakang dan masalah, merangkum penelitian terkait, menguraikan metode, lalu menyebut jadwal serta manfaat yang diharapkan. Sesuaikan susunan itu dengan bidang dan jenis penelitian; jangan memakai satu kerangka untuk semua naskah.
+
+Saat menyunting, pastikan sitasi tetap mendukung klaim yang sama, terutama jika kalimat dipindah atau dipecah. Periksa kembali angka dan arah hasil sebelum menyerahkan naskah. Berikan hasil terlebih dahulu, lalu sebutkan bagian yang masih memerlukan keputusan penulis.
 
 ## Contoh
 
-**Bahan:** “Persentase benih yang berkecambah naik dari 72% menjadi 81% pada kondisi pengamatan yang sama.”
+**Catatan:** `Latihan napas: skor turun 4,7 poin. Kontrol: turun 2,6 poin. Selisih −2,1; 95% CI −4,3 sampai 0,1; p = 0,064. Tidak ada pengacakan.`
 
-**Revisi:** “Pada kondisi pengamatan yang sama, persentase benih yang berkecambah meningkat dari 72% menjadi 81%, atau sebesar 9 poin persentase.”
+**Uraian:** “Skor turun 4,7 poin pada kelompok latihan napas dan 2,6 poin pada kelompok kontrol. Selisih perubahan antarkelompok adalah −2,1 poin (95% CI −4,3 hingga 0,1; p = 0,064). Karena peserta tidak dibagi secara acak, hasil ini belum cukup untuk menyimpulkan bahwa latihan napas menyebabkan penurunan skor.”
 
-Jangan menyebut kenaikan tersebut “9%” jika yang dimaksud selisih absolut; kenaikan relatifnya berbeda. Jangan mengklaim signifikan secara statistik tanpa pengujian.
+Angka dan batas kesimpulan tetap terlihat, sementara hasilnya disampaikan sebagai uraian, bukan daftar temuan.
 
-## Tolok mutu
+## Rujukan gaya
 
-Pastikan rumusan masalah, metode, dan simpulan konsisten; setiap klaim tambahan memiliki dasar; angka serta notasi utuh; sitasi tetap tepat; kekosongan bukti tidak disamarkan. Berikan naskah terlebih dahulu, lalu catatan substansi yang memerlukan keputusan penulis jika diperlukan.
+Prinsip prosa, alur argumen, dan kehati-hatian klaim diadaptasi dari [Research Proposal Skill](https://github.com/luwill/research-skills/tree/main/research-proposal) dan [Writing Style Guide](https://github.com/luwill/research-skills/blob/main/research-proposal/references/WRITING_STYLE_GUIDE.md). Gunakan pedoman institusi dan sumber penelitian yang benar-benar diperiksa untuk keputusan format dan isi.

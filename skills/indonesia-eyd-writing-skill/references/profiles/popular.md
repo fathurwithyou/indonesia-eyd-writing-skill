@@ -1,35 +1,35 @@
-# Tulisan populer
+# Tulisan Populer
 
-Buat artikel, esai, penjelasan edukatif, dan konten sosial yang mudah diikuti tanpa mengorbankan akurasi.
+Gunakan profil ini untuk artikel, esai, penjelasan umum, dan konten media sosial. Buat tulisan yang mudah diikuti tanpa mengurangi ketepatan.
 
-## Konteks minimum
+## Pahami pembaca
 
-Kenali pengetahuan awal pembaca, satu gagasan utama, medium, tujuan, dan panjang. Untuk esai opini, bedakan posisi penulis dari fakta yang menjadi dasarnya.
+Cari tahu apa yang sudah diketahui pembaca, apa gagasan utama yang perlu mereka ingat, dan di mana tulisan akan dipakai. Untuk opini, bedakan pendapat penulis dari fakta yang mendukungnya.
 
-## Alur penulisan
+## Susun tulisan
 
-1. Mulai dari persoalan, kejadian, atau pertanyaan yang konkret jika tersedia.
-2. Susun penjelasan dari gagasan yang sudah dikenal menuju gagasan baru.
-3. Gunakan contoh dan analogi jika memperjelas. Sebutkan batas analogi jika pembaca berisiko menyamakannya dengan mekanisme sebenarnya.
-4. Bedakan fakta, pendapat, dugaan, dan ilustrasi. Tandai angka hipotetis sebagai contoh.
-5. Akhiri dengan implikasi atau tindakan hanya jika diperlukan tujuan tulisan.
+Mulailah dari persoalan, kejadian, atau pertanyaan yang dekat dengan topik. Setelah itu, jelaskan gagasan baru dengan bertolak dari hal yang sudah dikenal pembaca. Pakai contoh atau perumpamaan jika bisa membantu; jelaskan batasnya jika perumpamaan itu berisiko disalahartikan.
 
-## Batas perubahan
+Jaga agar pembaca dapat membedakan fakta, pendapat, dugaan, dan contoh. Tandai angka rekaan sebagai ilustrasi. Akhiri dengan dampak atau langkah berikutnya jika memang dibutuhkan.
 
-- Jangan menciptakan pengalaman pribadi, kutipan narasumber, statistik, atau testimoni untuk membuat tulisan lebih menarik.
-- Jangan memakai judul yang menjanjikan lebih dari isi.
-- Jangan menyederhanakan sampai menghapus syarat atau mengubah hubungan sebab-akibat.
-- Sesuaikan ragam dengan kanal. Caption singkat tidak membutuhkan struktur artikel; artikel tidak memerlukan emoji atau ajakan interaksi secara otomatis.
-- Jika tugasnya promosi, gunakan hanya manfaat dan klaim produk yang diberikan atau diverifikasi. Hindari jaminan keberhasilan tanpa dasar.
+Untuk caption dan promosi, jangan susun semua syarat seperti daftar menu. Mulailah dengan ajakan atau gambaran suasana, lalu selipkan rincian penting di bagian yang paling mudah dipahami.
+
+## Jaga isi
+
+- Jangan mengarang pengalaman pribadi, kutipan, angka, atau testimoni agar tulisan lebih menarik.
+- Pastikan judul tidak menjanjikan hal yang tidak dibahas.
+- Jangan menghapus syarat atau mengubah hubungan sebab-akibat demi membuat tulisan terasa lebih sederhana.
+- Sesuaikan bentuk dengan tempat terbit. Caption boleh singkat; artikel tidak harus memakai emoji atau ajakan bertindak.
+- Untuk promosi, gunakan manfaat yang diberikan atau sudah diperiksa. Jangan menjanjikan hasil tanpa bukti.
 
 ## Contoh
 
 **Terlalu umum:** “Dalam kehidupan sehari-hari, pengelolaan makanan menjadi semakin penting.”
 
-**Lebih konkret, jika sesuai bahan:** “Sayuran yang terselip di bagian belakang kulkas mudah terlupakan. Menempatkannya di bagian yang terlihat dapat membantu penghuni rumah mengingat bahan yang masih tersedia.”
+**Lebih konkret, jika sesuai bahan:** “Sayuran yang terselip di belakang kulkas mudah terlupakan. Menaruhnya di tempat yang terlihat dapat membantu penghuni rumah ingat bahwa bahan itu masih ada.”
 
-Contoh kedua tetap memerlukan dasar jika dipakai sebagai klaim empiris tentang rumah tangga tertentu.
+> Contoh kedua tetap perlu bukti jika dipakai sebagai klaim tentang rumah tangga tertentu.
 
-## Tolok mutu
+## Periksa hasil
 
-Pastikan gagasan utama jelas, istilah dijelaskan sesuai pembaca, contoh berfungsi, dan pembuka maupun penutup tidak hanya mengisi ruang. Jangan menambah klaim faktual demi daya tarik.
+Pastikan gagasan utama mudah ditemukan dan setiap contoh membantu pembaca. Jangan menambah klaim hanya agar pembuka atau penutup terasa menarik.

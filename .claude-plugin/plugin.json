@@ -1,7 +1,7 @@
 {
   "name": "indonesia-eyd-writing-skill",
-  "description": "Penulisan bahasa Indonesia berbasis konteks untuk riset, karya kreatif, komunikasi profesional, tulisan populer, dan dokumentasi teknis dengan rujukan EYD V.",
-  "version": "2.0.0",
+  "description": "Menulis dan menyunting teks bahasa Indonesia sesuai konteks, dengan EYD V sebagai dasar ejaan.",
+  "version": "2.1.0",
   "author": {
     "name": "Fathur"
   },

@@ -5,14 +5,14 @@
     "email": ""
   },
   "metadata": {
-    "description": "Marketplace penulisan bahasa Indonesia berbasis konteks dengan dasar EYD V."
+    "description": "Plugin untuk menulis dan menyunting teks bahasa Indonesia sesuai konteks, dengan EYD V sebagai dasar ejaan."
   },
   "plugins": [
     {
       "name": "indonesia-eyd-writing-skill",
       "source": "./",
-      "description": "Penulisan bahasa Indonesia berbasis konteks untuk riset, karya kreatif, komunikasi profesional, tulisan populer, dan dokumentasi teknis dengan rujukan EYD V.",
-      "version": "2.0.0",
+      "description": "Menulis dan menyunting teks bahasa Indonesia sesuai konteks, dengan EYD V sebagai dasar ejaan.",
+      "version": "2.1.0",
       "author": {
         "name": "Fathur"
       },

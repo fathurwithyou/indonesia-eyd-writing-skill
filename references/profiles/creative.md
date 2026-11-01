@@ -1,33 +1,31 @@
-# Penulisan kreatif
+# Penulisan Kreatif
 
-Pertahankan suara, irama, sudut pandang, dan efek yang dituju penulis. Gunakan EYD pada bagian yang memang mengikuti ragam baku; perlakukan penyimpangan artistik secara sadar.
+Gunakan profil ini untuk cerpen, novel, puisi, dialog, dan narasi pribadi. Jaga suara, irama, sudut pandang, dan efek yang diinginkan penulis. Terapkan EYD pada bagian yang memang mengikuti ragam baku; pertahankan penyimpangan yang sengaja dipakai sebagai gaya.
 
-## Konteks minimum
+## Pahami cerita
 
-Kenali bentuk karya, pembaca, suasana, sudut pandang, dan kebebasan menambah unsur. Untuk kelanjutan cerita, ikuti tokoh, latar, dan peristiwa yang sudah ditetapkan. Untuk koreksi, jangan menganggap izin mengubah plot sudah diberikan.
+Kenali bentuk karya, pembaca, suasana, sudut pandang, dan seberapa jauh kamu boleh menambah unsur. Jika melanjutkan cerita, ikuti tokoh, latar, dan kejadian yang sudah ditetapkan. Jika diminta mengoreksi, jangan menganggap itu izin untuk mengubah alur.
 
-## Alur penulisan
+## Sunting dengan menjaga suara
 
-1. Tentukan efek utama adegan atau puisi: ketegangan, kedekatan, kehilangan, kelucuan, atau efek lain dari permintaan.
-2. Susun detail, tindakan, dialog, dan irama yang mendukung efek itu. Gunakan penjelasan langsung jika memang lebih efektif daripada adegan.
-3. Pertahankan konsistensi tokoh, pengetahuan narator, waktu, dan ruang. Periksa siapa mengetahui apa pada setiap bagian.
-4. Pada penyuntingan, bedakan kesalahan tak sengaja dari dialek, fragmen, repetisi, dan alih kode yang disengaja.
-5. Periksa ejaan narasi dan tanda baca dialog tanpa menyeragamkan semua suara tokoh.
+Pahami efek yang ingin dibangun dalam adegan atau puisi. Gunakan tindakan, dialog, suasana, atau irama untuk membantu efek itu; penjelasan langsung juga boleh jika terasa lebih kuat.
 
-## Batas perubahan
+Jaga agar tokoh, waktu, dan tempat tetap masuk akal. Saat menyunting, bedakan kesalahan yang tidak disengaja dari dialek, kalimat terputus, pengulangan, atau campuran bahasa yang memang dipilih penulis. Betulkan ejaan narasi dan tanda baca dialog tanpa membuat semua tokoh berbicara dengan cara yang sama.
 
-- Jangan otomatis mengganti “gue”, “nggak”, atau bentuk regional dalam dialog menjadi bahasa resmi.
-- Jangan menghapus fragmen, pengulangan, atau metafora hanya karena tidak sesuai pola prosa informatif.
-- Jangan menambah nama, konflik, akhir cerita, atau latar baru ketika pengguna hanya meminta proofreading.
-- Jika diminta membuat cerita baru, gunakan rekaan sesuai arahan. Jika teks adalah memoar atau pengalaman nyata, jangan menambah kejadian faktual tanpa izin.
-- Jangan menganggap setiap kutipan sebagai dialog fiktif; kutipan faktual harus tetap akurat.
+## Hormati batas cerita
+
+- Jangan otomatis mengubah “gue”, “nggak”, atau kata daerah dalam dialog menjadi bahasa resmi.
+- Jangan menghapus kalimat terputus, pengulangan, atau kiasan hanya karena berbeda dari tulisan informatif.
+- Jika pengguna hanya meminta koreksi, jangan menambah nama, konflik, akhir cerita, atau latar baru.
+- Untuk memoar atau cerita pengalaman nyata, jangan menambah kejadian yang disajikan sebagai fakta.
+- Jangan menganggap setiap kutipan sebagai dialog rekaan. Kutipan faktual harus tetap akurat.
 
 ## Contoh
 
 **Bahan:** `“Aku nggak mau berlayar malam ini,” kata Nara.`
 
-Untuk pemeriksaan EYD ringan, kalimat itu dapat dipertahankan jika ragam percakapan memang disengaja. Mengganti dialog menjadi `“Saya tidak ingin berlayar malam ini,”` mengubah suara tokoh; lakukan hanya jika pembakuan diminta.
+> Jika ragam percakapan memang disengaja, kalimat itu bisa dibiarkan. Menggantinya menjadi `“Saya tidak ingin berlayar malam ini,”` akan mengubah suara Nara, jadi lakukan hanya jika pembakuan diminta.
 
-## Tolok mutu
+## Periksa hasil
 
-Pastikan alur dapat diikuti, detail tidak bertentangan, suara tokoh tetap berbeda, serta revisi tidak melampaui izin. Nilai karya berdasarkan tujuan estetiknya; jangan menambahkan simpulan moral atau penutup motivasional tanpa kebutuhan cerita.
+Pastikan alur masih dapat diikuti dan suara tiap tokoh tetap terasa. Nilai karya sesuai tujuan ceritanya; jangan menambah pesan moral atau penutup motivasional jika cerita tidak memerlukannya.

@@ -1,26 +1,24 @@
-# Komunikasi profesional
+# Komunikasi Kerja
 
-Buat pembaca memahami keperluan, konteks, dan tindakan berikutnya dengan cepat. Sesuaikan kesopanan dengan hubungan dan medium.
+Gunakan profil ini untuk email, pesan kerja, surat, memo, laporan, dan komentar tiket. Sampaikan keperluan dengan jelas, lalu sesuaikan kesopanan dengan hubungan dan media yang dipakai.
 
-## Konteks minimum
+## Pahami situasi
 
-Kenali pengirim, penerima atau peran penerima, tujuan pesan, tindakan yang diminta, serta waktu yang benar-benar diketahui. Jika nama penerima tidak tersedia, gunakan sapaan netral atau penanda sesuai permintaan; jangan mencari identitas seseorang untuk sekadar menyusun draf.
+Cari tahu siapa yang mengirim dan menerima pesan, apa tujuannya, tindakan apa yang dibutuhkan, dan tenggat apa yang sudah diketahui. Jika nama penerima tidak ada, gunakan sapaan umum atau penanda yang diminta. Jangan mencari identitas orang hanya untuk membuat draf.
 
-## Alur penulisan
+## Susun pesan
 
-1. Sampaikan keperluan atau keputusan pada awal pesan.
-2. Tambahkan konteks yang diperlukan untuk memahami keperluan itu.
-3. Nyatakan permintaan atau tindakan berikutnya dengan jelas.
-4. Cantumkan tenggat, pemilik tugas, dan lampiran hanya jika tersedia dan relevan.
-5. Sesuaikan format: pesan singkat cukup beberapa kalimat; memo atau laporan dapat memakai bagian dan daftar.
+Sampaikan keperluan atau keputusan lebih dulu. Setelah itu, beri konteks secukupnya agar pembaca paham, lalu jelaskan apa yang perlu dilakukan. Cantumkan tenggat, penanggung jawab, atau lampiran hanya jika informasinya tersedia dan memang dibutuhkan.
 
-## Batas perubahan
+Pesan singkat biasanya cukup dengan beberapa kalimat. Untuk memo dan laporan, gunakan bagian atau daftar jika itu membantu pembaca menemukan informasi.
 
-- Jangan mengubah usulan menjadi persetujuan, permintaan menjadi instruksi, atau kemungkinan menjadi komitmen.
-- Jangan menciptakan tenggat, janji, status persetujuan, lampiran, atau kebijakan organisasi.
-- Jangan menambahkan permintaan maaf atau basa-basi panjang tanpa fungsi.
-- Pertahankan sapaan dan tingkat keakraban. “Profesional” dapat tetap hangat dan singkat.
-- Untuk komentar tiket, pisahkan ringkasan, cakupan, celah, dan tindak lanjut jika membantu pembaca; jangan memaksakan semua bagian pada pesan pendek.
+## Jaga maksud
+
+- Jangan mengubah usulan menjadi persetujuan, permintaan menjadi perintah, atau kemungkinan menjadi janji.
+- Jangan membuat tenggat, janji, status persetujuan, lampiran, atau aturan organisasi yang tidak disebutkan.
+- Hindari permintaan maaf dan basa-basi panjang jika tidak membantu hubungan atau isi pesan.
+- Pertahankan sapaan dan tingkat keakraban. Pesan profesional tetap boleh hangat dan ringkas.
+- Untuk komentar tiket, pisahkan ringkasan dan langkah berikutnya jika pembaca membutuhkannya. Pesan pendek tidak perlu dipaksa mengikuti format laporan.
 
 ## Contoh
 
@@ -28,8 +26,8 @@ Kenali pengirim, penerima atau peran penerima, tujuan pesan, tindakan yang dimin
 
 **Revisi pesan kerja:** “Bu, boleh diinformasikan jadwal pengiriman pesanan kemasan kami?”
 
-Jangan menambah nomor pesanan, tenggat, atau janji pembayaran jika informasinya belum diberikan.
+Jangan menambah nomor pesanan, tenggat, atau janji pembayaran jika informasinya belum ada.
 
-## Tolok mutu
+## Periksa hasil
 
-Pastikan tujuan dan tindakan jelas, hubungan sosial terjaga, serta tidak ada janji atau fakta tambahan. Jika pengguna hanya meminta draf, cukup berikan draf; jangan mengirim pesan atau menghubungi penerima.
+Pastikan pembaca tahu tujuan pesan dan apa yang perlu dilakukan. Jangan menambah janji atau fakta. Jika pengguna hanya meminta draf, berikan drafnya saja; jangan mengirim pesan atau menghubungi penerima.
