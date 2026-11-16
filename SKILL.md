@@ -37,9 +37,9 @@ Baca [prinsip editorial](references/editorial/principles.md) jika tugasnya menya
 
 Pilih kata yang biasa dipakai pembaca. Jika padanan bahasa Indonesia terdengar janggal atau jarang digunakan, pertahankan istilah asalnya. Jelaskan istilah itu hanya jika pembaca mungkin belum mengenalnya.
 
-Hubungkan gagasan dengan kata seperti “Selain itu”, “Namun”, dan “Karena itu” bila hubungan tersebut memang ada. Jangan menjejalkan banyak gagasan ke satu kalimat. Jika kalimat mulai terasa panjang, pecah menjadi dua.
+Utamakan kalimat padat dengan subjek, tindakan, dan objek yang jelas. Hapus kata pengantar, pengulangan, serta konjungsi yang tidak membantu hubungan gagasan. Pertahankan kata penghubung yang diperlukan agar hubungan antarkalimat tidak ambigu. Pecah kalimat jika memuat terlalu banyak gagasan.
 
-Jangan menumpuk rincian dalam deret panjang jika bisa disampaikan lewat alur atau beberapa kalimat. Daftar tetap berguna untuk langkah, pertanyaan, atau rujukan yang perlu dicari dengan cepat.
+Gunakan paragraf untuk mengembangkan argumen. Untuk rincian yang setara dan lebih mudah dipindai, gunakan daftar sesuai preferensi pengguna dan kaidah tanda baca. Hindari deret panjang dalam satu kalimat. Baca [contoh penyuntingan](references/editorial/principles.md#contoh-penyuntingan) saat diminta meniru gaya yang padat dan jelas.
 
 Pertahankan pilihan kata dan irama penulis. Biarkan humor, keraguan, pengulangan, dan ragam percakapan tetap ada jika memang berfungsi. Buang pembuka kosong, komentar yang tak menambah isi, klaim besar tanpa dasar, dan penutup yang hanya mengulang. Nilai tiap frasa sesuai konteks; jangan menghapus kata secara otomatis.
 

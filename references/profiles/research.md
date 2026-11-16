@@ -10,7 +10,7 @@ Sebelum menulis proposal lengkap, susun kerangkanya lebih dulu agar pengguna bis
 
 ## Bangun argumen dengan prosa
 
-Jelaskan masalah, bukti, dan alasan dengan paragraf yang saling terhubung. Hindari mengubah latar belakang, metode, kontribusi, atau dampak menjadi deretan butir. Gunakan daftar hanya untuk beberapa pertanyaan riset atau tujuan yang perlu dibaca satu per satu, jadwal, atau rincian teknis yang memang harus terpisah.
+Jelaskan masalah, bukti, dan alasan dengan paragraf yang saling terhubung. Hindari mengubah latar belakang, metode, kontribusi, atau dampak menjadi deretan butir. Gunakan daftar untuk rincian yang lebih mudah dipindai, seperti pertanyaan riset, jadwal, atau variabel. Ikuti preferensi pengguna dan pedoman institusi saat menentukan bentuk daftar.
 
 Mulailah dari masalah atau temuan khusus yang sudah didukung sumber. Hindari pembuka umum seperti “Dalam beberapa tahun terakhir...” jika tidak menyampaikan fakta. Hubungkan gagasan dengan kata seperti “Namun”, “Selain itu”, dan “Karena itu” saat hubungan tersebut memang ada. Pecah kalimat yang mulai menumpuk gagasan.
 
@@ -27,7 +27,7 @@ Bedakan temuan dari sumber, penjelasan penulis, dan usulan penelitian. Nyatakan 
 
 ## Susun dan periksa naskah
 
-Gunakan susunan yang diminta. Jika tidak ada format khusus, proposal biasanya menjelaskan latar belakang dan masalah, merangkum penelitian terkait, menguraikan metode, lalu menyebut jadwal serta manfaat yang diharapkan. Sesuaikan susunan itu dengan bidang dan jenis penelitian; jangan memakai satu kerangka untuk semua naskah.
+Gunakan susunan yang diminta. Jika tidak ada format khusus, proposal biasanya menjelaskan latar belakang dan masalah, merangkum penelitian terkait, menguraikan metode, lalu menyebut jadwal serta manfaat yang diharapkan. Sesuaikan susunan itu dengan bidang dan jenis penelitian; jangan memakai satu kerangka untuk semua naskah. Bedakan rancangan proposal yang menjelaskan rencana dari laporan tugas akhir yang memaparkan pelaksanaan dan temuan, serta artikel konferensi yang mengikuti format publikasinya. Jangan menulis hasil yang belum tersedia sebagai temuan.
 
 Saat menyunting, pastikan sitasi tetap mendukung klaim yang sama, terutama jika kalimat dipindah atau dipecah. Periksa kembali angka dan arah hasil sebelum menyerahkan naskah. Berikan hasil terlebih dahulu, lalu sebutkan bagian yang masih memerlukan keputusan penulis.
 

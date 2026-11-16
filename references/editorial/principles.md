@@ -28,3 +28,36 @@ Terapkan sebagai pertimbangan kontekstual. Jangan menyebut prinsip berikut sebag
 **Revisi yang mengubah klaim:** “Mulsa terbukti meningkatkan kelembapan tanah di semua kebun.”
 
 Perubahan kedua memperkenalkan sebab-akibat, kepastian, dan generalisasi yang tidak ada pada sumber.
+
+## Contoh penyuntingan
+
+Contoh ini menunjukkan pilihan gaya, bukan aturan mutlak. Pertahankan fakta, kadar kepastian, dan fungsi kalimat saat menerapkannya.
+
+**Kalimat padat**
+
+- Sebelum: “Pada penelitian ini, dilakukan proses pengukuran terhadap jumlah token yang digunakan oleh sistem dalam melakukan pembaruan indeks.”
+- Sesudah: “Penelitian ini mengukur jumlah token yang digunakan sistem untuk memperbarui indeks.”
+
+**Hubungan yang jelas**
+
+- Sebelum: “Metode tersebut menggunakan data lama. Hal ini kemudian dilakukan untuk proses pembaruan.”
+- Sesudah: “Metode tersebut menggunakan data lama untuk memperbarui indeks.”
+
+Revisi kedua hanya tepat jika konteks memastikan bahwa indeks adalah objek pembaruan; jika tidak, pertahankan ketidakpastian atau minta penjelasan.
+
+**Rincian yang mudah dipindai**
+
+- Sebelum: “Laporan mencatat nama, jenis, jumlah, kondisi, lokasi, dan waktu pemeriksaan barang.”
+- Sesudah: “Laporan mencatat rincian berikut.
+  - Identitas barang: nama dan jenis;
+  - Keadaan barang: jumlah, kondisi, dan lokasi;
+  - Waktu pemeriksaan.”
+
+Daftar digunakan karena pengelompokan membantu pembaca. Ikuti pedoman institusi dan EYD untuk tanda baca; titik dua dipakai bila kalimat pengantar sudah lengkap, bukan otomatis pada setiap daftar.
+
+**Status usulan**
+
+- Sebelum: “Jika metode awal gagal, sistem tambahan dapat dikembangkan untuk memperbaiki hasil.”
+- Sesudah, jika pengguna hanya bermaksud membuka opsi: “Sistem tambahan dapat dikembangkan untuk memperluas pengujian.”
+
+Syarat kegagalan hanya dihapus jika memang bukan bagian dari maksud penulis.

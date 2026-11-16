@@ -97,5 +97,32 @@
       "Memberi tiap subagen tujuan, bahan, batas klaim, dan bentuk hasil yang jelas.",
       "Menggabungkan hasil menjadi prosa yang utuh dan memeriksa ulang sumber serta konsistensi sebelum menyerahkan."
     ]
+  },
+  {
+    "id": "compact-preserve-meaning",
+    "prompt": "Sunting agar padat dan jelas, hasil saja: Pada penelitian ini, dilakukan proses pengukuran terhadap jumlah token yang digunakan oleh sistem dalam melakukan pembaruan indeks.",
+    "criteria": [
+      "Mempertahankan objek dan tujuan pengukuran.",
+      "Menghapus nominalisasi dan kata yang tidak diperlukan.",
+      "Tidak menambah klaim tentang hasil penelitian."
+    ]
+  },
+  {
+    "id": "optional-navigator-no-invented-condition",
+    "prompt": "Sunting kalimat ini agar jelas, tanpa menambahkan syarat: Navigator alternatif dapat dikembangkan untuk memperluas evaluasi.",
+    "criteria": [
+      "Mempertahankan navigator alternatif sebagai pilihan.",
+      "Tidak mensyaratkan kegagalan atau hasil buruk.",
+      "Tidak menjanjikan peningkatan kualitas."
+    ]
+  },
+  {
+    "id": "technical-brief-metrics",
+    "prompt": "Ringkas rancangan teknis ini dengan poin: metode A dan B dibandingkan; ukuran penggunaan adalah jumlah token; recall dokumen adalah proporsi artikel acuan yang ditemukan.",
+    "criteria": [
+      "Menjelaskan kegunaan token dan recall dokumen secara terpisah.",
+      "Menyajikan rincian dalam poin sesuai permintaan.",
+      "Tidak menganggap rumus atau metrik baru sebagai temuan empiris."
+    ]
   }
 ]

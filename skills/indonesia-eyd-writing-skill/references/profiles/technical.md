@@ -4,7 +4,7 @@ Gunakan profil ini untuk panduan, dokumentasi, spesifikasi, dan teks antarmuka. 
 
 ## Pahami tugas
 
-Cari tahu siapa pembacanya, apa yang ingin mereka lakukan, serta versi produk dan lingkungan yang dipakai. Untuk spesifikasi, jelaskan mana perilaku yang sudah ada dan mana yang masih berupa usulan.
+Cari tahu siapa pembacanya, apa yang ingin mereka lakukan, serta versi produk dan lingkungan yang dipakai. Untuk spesifikasi, jelaskan mana perilaku yang sudah ada dan mana yang masih berupa usulan. Untuk ringkasan penelitian teknis, jelaskan fungsi metrik, cara pengukuran, serta variabel bebas dan kontrol bila tersedia. Gunakan daftar, tabel, diagram, atau struktur berkas jika membantu pembaca memahami rancangan.
 
 ## Jelaskan dengan urut
 
