@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "skills" / "indonesia-eyd-writing-skill"
-MANAGED = ("SKILL.md", "references", "agents")
+MANAGED = ("SKILL.md", "references", "agents", "scripts/editorial")
 
 
 def source_files():

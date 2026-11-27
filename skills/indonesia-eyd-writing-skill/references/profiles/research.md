@@ -2,6 +2,8 @@
 
 Gunakan profil ini untuk proposal, laporan penelitian, artikel ilmiah, dan tinjauan pustaka. Tulis dengan bahasa yang jelas dan tetap cermat. Ikuti pedoman kampus, jurnal, atau lembaga jika tersedia.
 
+Saat menulis atau memperkuat latar belakang, menyelaraskan pertanyaan riset dengan metode, atau meninjau klaim sebuah artikel, baca [Panduan Argumen Ilmiah](../editorial/research-argument.md). Untuk koreksi ejaan setempat, gunakan rujukan EYD yang sesuai.
+
 ## Pahami kebutuhan
 
 Untuk tugas kecil, seperti membetulkan satu kalimat, langsung kerjakan bagian itu. Untuk proposal panjang, pahami dulu topik, pertanyaan riset, bidang, bahan yang tersedia, dan format yang diminta. Tanyakan hanya hal yang dapat mengubah arah penelitian atau metodenya.

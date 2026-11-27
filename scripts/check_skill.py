@@ -31,6 +31,7 @@ def check_package(base):
     for folder in ("eyd", "seri-penyuluhan", "highlights"):
         require(any((base / "references" / folder).glob("*.md")), f"Missing references: {folder}")
     require((base / "references/eyd/eyd-edisi-v-2022.md").is_file(), "Missing primary EYD source")
+    require((base / "scripts/editorial/naskah.py").is_file(), "Missing editorial tool")
     interface = yaml.safe_load((base / "agents/openai.yaml").read_text())["interface"]
     require(25 <= len(interface["short_description"]) <= 64, "Invalid UI blurb length")
     require("$" + data["name"] in interface["default_prompt"], "Default prompt must mention skill")

@@ -8,10 +8,13 @@ Skill ini membantu agen membuat dan menyunting tulisan yang jelas, alami, dan se
 - `references/profiles/`: panduan untuk lima jenis tulisan.
 - `references/editorial/`: prinsip penyuntingan dan peta sumber.
 - `references/eyd/`: EYD V dan rujukan per topik.
+- `scripts/editorial/naskah.py`: inventaris dan perbandingan naskah Markdown, teks, atau LaTeX.
 - `evals/`: kasus uji dan contoh hasil.
 - `skills/indonesia-eyd-writing-skill/`: salinan paket plugin.
 
 Pendekatan penyuntingan juga mengambil prinsip dari [no-ai-slop](https://github.com/petergyang/no-ai-slop). Profil riset merujuk pada [research-proposal](https://github.com/luwill/research-skills/tree/main/research-proposal).
+
+[Panduan Argumen Ilmiah](references/editorial/research-argument.md) mengadaptasi teknik dari [Research Paper Writing](https://github.com/Master-cai/Research-Paper-Writing-Skills/tree/main/research-paper-writing) untuk proposal, laporan tugas akhir, dan artikel ilmiah berbahasa Indonesia.
 
 ## Memasang
 
@@ -30,7 +33,7 @@ npx skills add fathurwithyou/indonesia-eyd-writing-skill --skill indonesia-eyd-w
 
 ### Pasang manual
 
-Salin `SKILL.md`, `references/`, dan `agents/` ke salah satu folder berikut:
+Salin `SKILL.md`, `references/`, `agents/`, dan `scripts/editorial/` ke salah satu folder berikut:
 
 | Aplikasi | Dalam proyek | Untuk semua proyek |
 | --- | --- | --- |
@@ -38,6 +41,19 @@ Salin `SKILL.md`, `references/`, dan `agents/` ke salah satu folder berikut:
 | Claude Code | `.claude/skills/indonesia-eyd-writing-skill/` | `~/.claude/skills/indonesia-eyd-writing-skill/` |
 
 Untuk host yang menerima unggahan skill, buat ZIP berisi berkas dan folder yang sama.
+
+## Menggunakan
+
+> Gunakan skill indonesia-eyd-writing-skill sebagai panduan utama. Baca naskah dan pedoman yang saya berikan. Susun lalu sunting bab untuk pembaca yang dituju. Periksa kembali alur, angka, sitasi, dan batas klaim sebelum menyerahkan versi akhir.
+
+Untuk memetakan bab atau membandingkan dua draf, jalankan dari akar paket skill. Alat ini memakai Python 3.10+ tanpa paket tambahan.
+
+```sh
+python3 scripts/editorial/naskah.py inspect bab-1.tex
+python3 scripts/editorial/naskah.py compare draf-lama.md draf-baru.md
+```
+
+Lihat [alur kerja naskah](references/editorial/workflow.md) untuk cara menindaklanjuti hasil pemeriksaan.
 
 ## Evaluasi
 

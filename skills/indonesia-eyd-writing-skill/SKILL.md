@@ -33,6 +33,8 @@ Baca satu profil utama. Gabungkan dua profil hanya jika tugasnya memang mencakup
 
 Baca [prinsip editorial](references/editorial/principles.md) jika tugasnya menyangkut gaya atau susunan. Untuk proyek panjang, gunakan [panduan konteks](references/editorial/context.md). Gunakan [peta rujukan](references/editorial/sources.md) saat perlu membedakan kaidah EYD, KBBI, aturan lembaga, dan bukti faktual.
 
+Untuk menyusun naskah utuh, merevisi satu bab, atau membandingkan dua draf, ikuti [alur kerja naskah](references/editorial/workflow.md). Panduan itu menjelaskan cara memakai alat lokal untuk memetakan naskah dan menelusuri perubahan.
+
 ## Buat kalimat mengalir
 
 Pilih kata yang biasa dipakai pembaca. Jika padanan bahasa Indonesia terdengar janggal atau jarang digunakan, pertahankan istilah asalnya. Jelaskan istilah itu hanya jika pembaca mungkin belum mengenalnya.
